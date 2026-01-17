@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto | Bat-Señal</title>
+    <link rel="stylesheet" href="batman.css">
+</head>
+<body class="subpage">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="practica1.html">Inicio</a></li>
+                <li><a href="misiones.html">Misiones</a></li>
+                <li><a href="contacto.html" class="active">Bat-Señal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Activar Bat-Señal</h1>
+        <div class="contact-box">
+            <form id="contact-form">
+                <input type="text" id="nombre" placeholder="Nombre en clave" required>
+                <input type="password" id="access-code" placeholder="Código de Acceso (Prueba: ALFRED)" required>
+                <textarea placeholder="Detalles de la emergencia..."></textarea>
+                <button type="submit" class="bat-btn">Transmitir a la Bat-Cueva</button>
+            </form>
+            <div id="signal-status"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bat-Computadora | Misiones</title>
+    <link rel="stylesheet" href="batman.css">
+</head>
+<body class="subpage">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="practica1.html">Inicio</a></li>
+                <li><a href="misiones.html" class="active">Misiones</a></li>
+                <li><a href="contacto.html">Bat-Señal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Protocolos de Misión</h1>
+        <div class="mission-grid">
+            <div class="mission-card" onclick="verDetalles('Operación: Joker', 'Rastreo de toxinas en la planta química Ace.')">
+                <h3>Operación: Joker</h3>
+                <span class="status">En curso</span>
+            </div>
+            <div class="mission-card" onclick="verDetalles('Protocolo: Knightfall', 'Refuerzo de la seguridad en el Asilo Arkham.')">
+                <h3>Protocolo: Knightfall</h3>
+                <span class="status">Pendiente</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
